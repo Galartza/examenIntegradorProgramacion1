@@ -1,0 +1,322 @@
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+
+}
+.navbar-nav{
+    font-size: 1.3em;
+    font-weight: 600;
+   
+}
+
+#general1{
+
+    width: auto;
+    height: auto;
+    background-image:  url("img/5417730.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.transparenciaimagen{
+    background-color: rgb(0, 0, 0, 0.5);
+    display: inline-block;
+
+}
+
+#general2{
+   height: 30vh;
+   background-image: linear-gradient(72deg, rgba(232,8,8,0.35477941176470584) 6%, rgba(223,8,8,1) 29%, rgba(212,7,9,1) 52%, rgba(224,8,8,0.30155812324929976) 83%, rgba(224,8,8,0.9122023809523809) 100%);
+
+
+}
+
+
+
+#general3{
+
+    width: auto;
+    height: auto;
+    background-image:  url("img/5417730.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+ 
+
+    background-size: cover;
+    background-position: center;
+}
+
+.p1{
+    color: white;
+    text-shadow:7px 4px 5px black ;
+}
+
+
+
+
+
+
+.imagenfondo5{
+    background-image: url("img/folclore..jpg");
+      background-position: center;
+    height: 20em;
+    box-shadow: 0 0  50px black; ;
+    background-repeat: no-repeat;
+
+background-size: cover;
+
+
+}
+.imagenfondo4{
+    background-image: url("img/foto2.jpg");
+   background-position: center;
+    height: 20em;
+    box-shadow: 0 0  50px black; ;
+    background-repeat: no-repeat;
+
+background-size: cover;
+
+
+}
+
+.imagenfondo2{
+    background-image: url("img/escueladerock.jpg");
+/* background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; */
+height: 22em;
+box-shadow: 0 0  50px black; ;
+
+
+}
+
+.imagenfondo1{
+    background-image: url("img/escuela\ de\ musica.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 20em;
+box-shadow: 0 0  50px black; ;
+display: flex;
+flex-wrap:wrap ;
+justify-content: center;
+margin: auto;
+}
+
+/* talleres imagenes */
+.imagenfondo{
+    background-image: url("img/computacion1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 20em;
+box-shadow: 0 0  50px black; ;
+}
+
+.imagenfondo6{
+    background-image: url("img/teatrofondo.jpg");
+    background-position: center;
+    height: 20em;
+    box-shadow: 0 0  50px black; ;
+    background-repeat: no-repeat;
+
+background-size: cover;
+}
+
+
+
+.texto{
+    font-size: 1.4rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+text-shadow:7px 4px 5px black ;
+
+}
+
+
+
+.btn{
+    background-color: red;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+ color: white;
+ text-shadow:7px 4px 5px black ;
+ 
+
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    text-shadow:7px 4px 5px black ;
+}
+
+
+
+.imagen{
+    background-image: url("img/guitarra.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    margin: 60 50 50 30px;
+
+}
+hr{
+    color: aliceblue;
+    
+}
+
+h6{
+    color: aliceblue;
+    text-shadow:7px 4px 5px black ;
+}
+
+h5{
+
+    color: aliceblue;
+    text-shadow:7px 4px 5px black ;
+
+}
+
+h4{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+form{
+    width: auto;
+
+   background: rgb(255, 0, 0, 0.8);
+
+   margin-top: 10px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+
+
+
+     }
+ 
+ #Contactanos{
+ 
+     
+  background-image: url('img/fondocontacto2.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+     background-size: cover;
+
+   width: auto;
+   background-position: center;
+   background-repeat: no repeat;
+ 
+   background-size: cover;
+   
+         }
+.tamañomapa{
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -moz-background-size: cover ;
+    background-size: cover;
+
+
+   
+ 
+   
+}
+
+
+         textarea{
+            resize: none;
+        }
+        
+        input.form-control {
+            border: 1px solid crimson;
+            box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+        }
+        textarea.form-control{
+            border: 1px solid crimson;
+            box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+        }
+        input.btn:hover{
+            box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+        }
+ 
+ .transparenciaimg{
+         background-color: rgba(0, 0, 0, 0.5);
+         padding: 60px;
+         height: 100%;
+     }
+
+
+     input, textarea {
+    
+  
+        background: #fff;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border:solid 1px black;
+    }
+
+
+
+    
+    footer{
+
+        background: linear-gradient(100deg,red,rgb(255, 0, 85),rgb(153, 0, 0));
+        min-width: auto;
+        height: 21vh;
+        background-image: url("img/18477663.jpg");
+        position: center;
+    
+
+    }   
+ 
+
+#icono{
+    object-position: center;
+}
+.social-bar{ position: fixed;
+right: 0;
+top: 35%;
+font-size: 1.5rem;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+z-index: 100;}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook{ background: blue;
+border-radius: 1rem 0 0 0;}
+.icon-instagram{background: rgb(255, 0, 85);
+    border-radius:0 0 0 1rem}
+    
+
+ 
+    

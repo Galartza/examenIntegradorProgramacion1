@@ -1,0 +1,810 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.navbar-nav {
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.izquierda {
+    background: linear-gradient(100deg, red, rgb(255, 0, 85), rgb(153, 0, 0));
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+.derecha {
+    background: url(img/centrocultural.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#Historia {
+    background-color: #571a1a;
+}
+
+
+
+
+.texh1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.texh2 {
+    font-size: 1.7vw;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+#Inicio {
+    display: flex;
+    height: 100vh;
+}
+
+.creative {
+    color: #fff;
+}
+
+.titulo2 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.parrafoEventos {
+    margin-right: 2%;
+    padding: 1em;
+    border: #fc0000 solid 5px;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+#Talleres {
+
+    height: auto;
+
+}
+
+.Talleres {
+
+    max-width: 100%;
+    height: auto;
+}
+
+#Cursos {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.cursos {
+    align-items: flex-start;
+    max-width: 100%;
+    height: auto;
+}
+
+#Eventos {
+    margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    color: #fff;
+    position: relative;
+    display: flex;
+
+}
+
+#Contactanos {
+
+    background-image: url('img/fondocontacto2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    width: auto;
+    background-position: center;
+    background-repeat: no repeat;
+
+    background-size: cover;
+
+
+
+
+
+}
+
+.transparenciaimg {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+}
+
+#datos {
+
+    background: linear-gradient(100deg, red, rgb(255, 0, 85), rgb(153, 0, 0));
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Evizq {
+    width: 100%;
+
+}
+
+.Evder {
+    width: 60%;
+    text-align: center;
+}
+
+.Evder p {
+
+    color: black;
+    font-size: 25px;
+    padding-top: 0px;
+}
+
+h1 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    ;
+    padding-top: 2rem;
+
+    text-shadow: 4px 3px 6px
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    color: black;
+    font-size: 100px;
+    padding-top: 80px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: aliceblue;
+    text-shadow: 7px 4px 5px black;
+}
+
+h6 {
+
+    margin-left: 60%;
+    font-size: 50px;
+
+}
+
+.h51 {
+    text-align: left;
+    color: black;
+
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+
+    height: 20em;
+    width: auto;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: fff;
+    color: #2fb4cc;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    text-align: center;
+    border: solid red 2px;
+
+
+}
+
+.card-body {
+    height: 9em;
+
+
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-text {
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid red 2px;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+form {
+    width: auto;
+    background: rgb(255, 0, 0, 0.8);
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    /* background-color: linear-gradient(100deg, red, rgb(255, 0, 85), rgb(153, 0, 0)); */
+    min-width: auto;
+    height: 21vh;
+    background-image: url(img/5417730.jpg);
+    position: center;
+}
+
+input,
+textarea {
+
+
+    background: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: solid 1px black;
+}
+
+textarea {
+    background: white;
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+input.form-control {
+    border: 1px solid crimson;
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+textarea.form-control {
+    border: 1px solid crimson;
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+input.btn:hover {
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+.btn {
+
+
+    background: rgb(170, 0, 2);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(170, 0, 2, 1) 0%, rgba(237, 59, 0, 1) 32%, rgba(237, 59, 0, 1) 53%, rgba(234, 0, 62, 1) 74%, rgba(234, 0, 62, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(170, 0, 2, 1) 0%, rgba(237, 59, 0, 1) 32%, rgba(237, 59, 0, 1) 53%, rgba(234, 0, 62, 1) 74%, rgba(234, 0, 62, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(170, 0, 2, 1) 0%, rgba(237, 59, 0, 1) 32%, rgba(237, 59, 0, 1) 53%, rgba(234, 0, 62, 1) 74%, rgba(234, 0, 62, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    background-position: center;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.carousel {
+    margin-top: 50px;
+    object-position: center;
+    padding: 1cm;
+
+}
+
+.transparencia {
+    background: rgba(255, 0, 0, 0.8);
+}
+
+.scroll {
+    height: 100%;
+    background-image: url('img/fondo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hrTitulos {
+    border: 1px solid #fc0000;
+    background-color: #fc0000;
+    height: 2px !important;
+    opacity: 1;
+    margin: 0% 10%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+
+}
+
+.Izq {
+    text-align: center;
+}
+
+.Der {
+    text-align: center;
+}
+
+
+
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: blue;
+    border-radius: 1rem 0 0 0;
+}
+
+.icon-instagram {
+    background: rgb(255, 0, 85);
+    border-radius: 0 0 0 1rem
+}
+
+/* imagenes card */
+.imagenteatro {
+    background-image: url("escuelademusica.html");
+}
+
+/* imagenes de carrosuelk */
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.navbar-nav {
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+#general1 {
+
+    width: auto;
+    height: auto;
+    background-image: url("img/5417730.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.transparenciaimagen {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: inline-block;
+
+}
+
+#general2 {
+    height: 30vh;
+    background-image: linear-gradient(72deg, rgba(232, 8, 8, 0.35477941176470584) 6%, rgba(223, 8, 8, 1) 29%, rgba(212, 7, 9, 1) 52%, rgba(224, 8, 8, 0.30155812324929976) 83%, rgba(224, 8, 8, 0.9122023809523809) 100%);
+
+
+}
+
+
+
+#general3 {
+
+    width: auto;
+    height: auto;
+    background-image: url("img/5417730.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+
+    background-size: cover;
+    background-position: center;
+}
+
+.p1 {
+    color: white;
+    text-shadow: 7px 4px 5px black;
+}
+
+
+
+
+
+
+.imagenfondo5 {
+    background-image: url("img/folclore..jpg");
+    background-position: center;
+    height: 20em;
+    box-shadow: 0 0 50px black;
+    ;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+}
+
+.imagenfondo4 {
+    background-image: url("img/foto2.jpg");
+    background-position: center;
+    height: 20em;
+    box-shadow: 0 0 50px black;
+    ;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+}
+
+.imagenfondo2 {
+    background-image: url("img/escueladerock.jpg");
+    /* background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; */
+    height: 22em;
+    box-shadow: 0 0 50px black;
+    ;
+
+
+}
+
+.imagenfondo1 {
+    background-image: url("img/escuela\ de\ musica.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    box-shadow: 0 0 50px black;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+/* talleres imagenes */
+.imagenfondo {
+    background-image: url("img/computacion1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    box-shadow: 0 0 50px black;
+    ;
+}
+
+.imagenfondo6 {
+    background-image: url("img/teatrofondo.jpg");
+    background-position: center;
+    height: 20em;
+    box-shadow: 0 0 50px black;
+    ;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+
+
+.texto {
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 7px 4px 5px black;
+
+}
+
+
+
+.btn {
+    background-color: red;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 7px 4px 5px black;
+
+
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 7px 4px 5px black;
+}
+
+
+
+.imagen {
+    background-image: url("img/guitarra.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    margin: 60 50 50 30px;
+
+}
+
+hr {
+    color: aliceblue;
+
+}
+
+h6 {
+    color: aliceblue;
+    text-shadow: 7px 4px 5px black;
+}
+
+h5 {
+
+    color: aliceblue;
+    text-shadow: 7px 4px 5px black;
+
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    width: auto;
+
+    background: rgb(255, 0, 0, 0.8);
+
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+
+
+
+}
+
+#Contactanos {
+
+
+    background-image: url('img/fondocontacto2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: auto;
+    background-position: center;
+    background-repeat: no repeat;
+
+    background-size: cover;
+
+}
+
+.tamañomapa {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+
+
+
+
+}
+
+
+textarea {
+    resize: none;
+}
+
+input.form-control {
+    border: 1px solid crimson;
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+textarea.form-control {
+    border: 1px solid crimson;
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+input.btn:hover {
+    box-shadow: 0px 0px 6px 3px rgba(122, 122, 122, 0.5) !important;
+}
+
+.transparenciaimg {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    height: 100%;
+}
+
+
+input,
+textarea {
+
+
+    background: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: solid 1px black;
+}
+
+#icono {
+    object-position: center;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: blue;
+    border-radius: 1rem 0 0 0;
+}
+
+.icon-instagram {
+    background: rgb(255, 0, 85);
+    border-radius: 0 0 0 1rem
+}
+
+
+html {
+    font-size: 16px;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-youtube {
+    background: #E83028;
+}
+
+.icon-instagram {
+    background: radial-gradient(circle at 30% 110%, #ffdb8b 0%, #ee653d 25%, #d42e81 50%, #a237b6 75%, #3e5fbc 100%);
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
